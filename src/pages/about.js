@@ -49,23 +49,22 @@ export default ({ data }) => {
           </p>
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
-            <b>Software Engineer</b> discovering the ways of the code. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            <b>Software Engineer</b>! I graduated from the University of Massachusetts,
+            Amherst with a BS in Computer Science and a BBA in Management. I have experience
+            as a Software Engineer in Full Stack, Mobile App, and Game Development. I have worked
+            with a number of different programming languages such as Java, C#, PHP, React,
+            Javascript, SQL, and Python.
           </p>
           <p className="i-5">
-            In my spare time, Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+          I am a hard working, highly motivated individual who has a passion
+          for solving complex problems and Software Engineering as a whole. In my free time
+          I enjoy creating games in Unity and learning about game design principles.
           </p>
-          <p className="i-5">
+          {/* <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've
             been up to! Or check out my <Link to="/blog">blog</Link> to see
             what's recently caught my eye!
-          </p>
+          </p> */}
         </article>
         <article className="w-75 m-auto">
           {unemployed && (
