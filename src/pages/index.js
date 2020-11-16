@@ -32,7 +32,7 @@ export default ({ data }) => {
             }}
           >
             <span className="first-name">{firstName}</span>&nbsp;
-            {window.innerWidth <= 550 ? <br /> : null}
+            {/* {window && window.innerWidth <= 550 ? <br /> : null} */}
             <span className="last-name">{lastName}</span>
           </h1>
           <p>
