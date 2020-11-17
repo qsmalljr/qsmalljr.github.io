@@ -32,9 +32,9 @@ export default () => {
           {/* <Nav.Link className="ml-2" as={Link} to="/projects" title="Projects">
             Projects
           </Nav.Link> */}
-          <Nav.Link className="ml-2" as={Link} to="/resume" title="Resume">
+          {/* <Nav.Link className="ml-2" as={Link} to="/resume" title="Resume">
             Resume
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
