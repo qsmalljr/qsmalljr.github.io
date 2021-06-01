@@ -3,19 +3,14 @@ import ThemeContext from "../utils/theme"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
 import "./Fontawesome.js"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome } from "@fortawesome/free-solid-svg-icons"
+import logo from "../../static/icons/Q-Logo.png"
 
 export default () => {
   const { toString } = useContext(ThemeContext)
   return (
     <Navbar variant={toString()} fixed="top" collapseOnSelect expand="md">
-      <Navbar.Brand className="pl-5 ml-5" as={Link} to="/">
-        <FontAwesomeIcon
-          icon={faHome} //["fas", "fa-home"]}
-          className={`brand-icon "rebel"`}
-          title="Home"
-        />
+      <Navbar.Brand className="pl-2 ml-2" as={Link} to="/">
+        <img src={logo} alt="Home" title="Home" style={{maxHeight: "70px", borderRadius: "15px"}} className={`brand-icon`} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
