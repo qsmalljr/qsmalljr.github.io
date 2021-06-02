@@ -4,13 +4,12 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import logo from "../../static/icons/Q-Logo.png"
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
   return (
     <PageLayout>
-      <SEO title="Home" image={{src: logo, height: 75, width: 75}} />
+      <SEO title="Home" image={{src: "/icons/Q-Logo.png", height: 256, width: 256}} />
       <Container className="text-center pt-5 mt-5" fluid>
         <Image
           width="150"
