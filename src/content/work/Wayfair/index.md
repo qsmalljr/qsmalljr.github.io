@@ -1,8 +1,8 @@
 ---
 company: "Wayfair"
 location: "Boston, MA"
-position: "Software Engineer II"
-tags: ["React.js", "PHP", "Webpack", "Javascript"]
+position: "Senior Engineer"
+tags: ["PHP", "React.js", "Webpack", "Javascript"]
 startDate: "2019-08-05"
 endData: ""
 ---
