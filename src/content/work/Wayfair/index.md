@@ -8,5 +8,5 @@ endData: ""
 ---
 
 - Full-Stack software engineer with a focus on server-side programming.</p>
-
-* Current place of employment 🙂</p>
+- Design and build customer-facing systems utilizing various languages and tools such as PHP, SQL, ReactJS, and Webpack,</p>
+- Lead and execute various technical projects that help Wayfair expand its website internationally.</p>
